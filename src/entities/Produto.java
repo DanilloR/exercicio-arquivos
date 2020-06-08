@@ -32,6 +32,6 @@ public class Produto {
 	public String toString() {
 		return nomeProduto
 				+","+
-				String.format("%.2f", precoFinal());
+				String.format("%.2f", precoProduto*quantidade);
 	}
 }
